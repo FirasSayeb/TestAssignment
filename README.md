@@ -5,9 +5,7 @@ This project demonstrates how to use Cypress with the Cucumber preprocessor to t
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Running the Tests](#running-the-tests)
-- [Usage](#usage)
+
 
 ---
 
