@@ -5,12 +5,9 @@ This project demonstrates how to use Cypress with the Cucumber preprocessor to t
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Running the Tests](#running-the-tests)
 - [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [License](#license)
 
 ---
 
@@ -33,5 +30,51 @@ Each functionality has corresponding tests written in the Gherkin syntax, ensuri
 
 ---
 
-## Project Structure
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/cypress-cucumber-testing.git
+   cd cypress-cucumber-testing
+Install dependencies:
+
+bash
+Copier
+Modifier
+npm install
+Install the Cypress Cucumber Preprocessor:
+
+bash
+Copier
+Modifier
+npm install cypress-cucumber-preprocessor --save-dev
+
+Running the Tests
+Open the Cypress Test Runner:
+
+bash
+Copier
+Modifier
+npx cypress open
+Run tests via the CLI:
+
+bash
+Copier
+Modifier
+npx cypress run
+
+Usage
+Scenarios Overview
+Login Feature
+Given: I open the login page.
+When: I submit valid credentials.
+Then: I should be logged in successfully.
+Search Feature
+Given: I open the search page.
+When: I submit a search request.
+Then: The search results should appear.
+Add Feature
+Given: I open the add page.
+When: I submit an item to add.
+Then: The item should be added successfully.
 
